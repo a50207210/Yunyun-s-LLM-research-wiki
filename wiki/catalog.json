@@ -1,0 +1,193 @@
+{
+  "site_title": "LLM研究知識庫",
+  "last_updated": "2026-11-16",
+  "pages": [
+    {
+      "id": "research-map",
+      "title": "LLM研究知識地圖",
+      "type": "synthesis",
+      "path": "wiki/synthesis/research-map.md",
+      "summary": "整理LLM研究主軸，並連結營養領域Ingest示範。",
+      "tags": [
+        "研究架構",
+        "LLM"
+      ],
+      "updated": "2026-11-16",
+      "status": "draft"
+    },
+    {
+      "id": "llm",
+      "title": "大型語言模型(LLM)",
+      "type": "concept",
+      "path": "wiki/concepts/large-language-model.md",
+      "summary": "整理LLM的研究範圍、常見應用與研究限制。",
+      "tags": [
+        "基礎概念",
+        "LLM"
+      ],
+      "updated": "2026-11-16",
+      "status": "draft"
+    },
+    {
+      "id": "rag",
+      "title": "檢索增強生成(RAG)",
+      "type": "concept",
+      "path": "wiki/concepts/retrieval-augmented-generation.md",
+      "summary": "區分檢索、生成與證據查核，並說明與持續維護Wiki的差別。",
+      "tags": [
+        "RAG",
+        "知識管理"
+      ],
+      "updated": "2026-11-16",
+      "status": "draft"
+    },
+    {
+      "id": "agent",
+      "title": "AI代理(Agent)",
+      "type": "concept",
+      "path": "wiki/concepts/ai-agent.md",
+      "summary": "記錄工具使用、步驟規劃與維護Wiki的代理工作流程。",
+      "tags": [
+        "Agent",
+        "工作流程"
+      ],
+      "updated": "2026-11-16",
+      "status": "draft"
+    },
+    {
+      "id": "evaluation",
+      "title": "研究評估與證據品質",
+      "type": "method",
+      "path": "wiki/methods/evaluation-and-evidence.md",
+      "summary": "評估LLM研究及跨領域來源的證據類型、時間脈絡與可追溯性。",
+      "tags": [
+        "研究方法",
+        "證據品質"
+      ],
+      "updated": "2026-11-16",
+      "status": "reviewed"
+    },
+    {
+      "id": "nist-rmf",
+      "title": "NIST AI風險管理架構(2023)",
+      "type": "source",
+      "path": "wiki/sources/nist-ai-rmf.md",
+      "summary": "NIST AI RMF 1.0官方文件的書目與用途摘要。",
+      "tags": [
+        "NIST",
+        "政府文件"
+      ],
+      "updated": "2026-11-16",
+      "status": "reviewed"
+    },
+    {
+      "id": "nist-genai",
+      "title": "NIST生成式AI風險管理概況(2024)",
+      "type": "source",
+      "path": "wiki/sources/nist-generative-ai-profile.md",
+      "summary": "NIST AI 600-1政府文件的基本資訊與應用範圍。",
+      "tags": [
+        "NIST",
+        "生成式AI"
+      ],
+      "updated": "2026-11-16",
+      "status": "reviewed"
+    },
+    {
+      "id": "hpa-diet-2018",
+      "title": "每日飲食指南手冊(2018)",
+      "type": "source",
+      "path": "wiki/sources/hpa-daily-dietary-guidelines-2018.md",
+      "summary": "2018年國健署一般民眾六大類飲食、熱量分級與份量指引。",
+      "tags": [
+        "營養",
+        "政府文件",
+        "飲食指南"
+      ],
+      "updated": "2026-11-16",
+      "status": "reviewed"
+    },
+    {
+      "id": "hpa-prenatal-2018",
+      "title": "孕產期營養參考手冊(2018)",
+      "type": "source",
+      "path": "wiki/sources/hpa-prenatal-lactation-nutrition-2018.md",
+      "summary": "國健署2018年孕期分期、哺乳營養需求與攝取調查的整理。",
+      "tags": [
+        "營養",
+        "孕產期",
+        "政府文件"
+      ],
+      "updated": "2026-11-16",
+      "status": "reviewed"
+    },
+    {
+      "id": "balanced-diet",
+      "title": "均衡飲食",
+      "type": "concept",
+      "path": "wiki/concepts/balanced-diet.md",
+      "summary": "以六大類食物、熱量平衡與個人需求界定均衡飲食。",
+      "tags": [
+        "營養",
+        "均衡飲食"
+      ],
+      "updated": "2026-11-16",
+      "status": "reviewed"
+    },
+    {
+      "id": "six-food-groups",
+      "title": "六大類食物與份量",
+      "type": "concept",
+      "path": "wiki/concepts/six-food-groups.md",
+      "summary": "整理六大類食物名稱、份量定義與飲食規劃的使用界線。",
+      "tags": [
+        "營養",
+        "六大類食物"
+      ],
+      "updated": "2026-11-16",
+      "status": "reviewed"
+    },
+    {
+      "id": "pregnancy-lactation-nutrition",
+      "title": "孕產期與哺乳期營養",
+      "type": "concept",
+      "path": "wiki/concepts/pregnancy-lactation-nutrition.md",
+      "summary": "整理孕期分段與哺乳期的額外營養需求及適用前提。",
+      "tags": [
+        "營養",
+        "孕產期",
+        "哺乳"
+      ],
+      "updated": "2026-11-16",
+      "status": "reviewed"
+    },
+    {
+      "id": "dietary-guideline-interpretation",
+      "title": "政府飲食指引的證據解讀",
+      "type": "method",
+      "path": "wiki/methods/dietary-guideline-interpretation.md",
+      "summary": "避免混淆一般飲食建議、孕產期指引及歷史調查。",
+      "tags": [
+        "研究方法",
+        "營養",
+        "證據品質"
+      ],
+      "updated": "2026-11-16",
+      "status": "reviewed"
+    },
+    {
+      "id": "taiwan-nutrition-guidelines-comparison",
+      "title": "一般與孕產期飲食指引比較(2018)",
+      "type": "synthesis",
+      "path": "wiki/synthesis/taiwan-nutrition-guidelines-comparison.md",
+      "summary": "對照一般民眾與孕產期飲食指引的適用族群、能量與食物份數。",
+      "tags": [
+        "營養",
+        "跨來源綜整",
+        "政府文件"
+      ],
+      "updated": "2026-11-16",
+      "status": "reviewed"
+    }
+  ]
+}

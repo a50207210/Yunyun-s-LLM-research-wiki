@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="可持續累積、可追溯來源的中文LLM研究知識庫">
+  <title>LLM研究知識庫 | LLM Research Wiki</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="./"><span class="logo">L</span><span>LLM Research <strong>Wiki</strong></span></a>
+    <div class="top-links"><span class="pill">Markdown × AI Agent</span><a href="AGENTS.md" target="_blank" rel="noopener">查看AGENTS.md ↗</a></div>
+  </header>
+  <div class="page-wrap">
+    <section class="hero" aria-label="網站介紹">
+      <div class="eyebrow"><span class="dot"></span> 中文研究知識庫 · 可持續維護</div>
+      <h1>讓每一篇文獻，<br><em>成為下一次研究的起點。</em></h1>
+      <p>不是每次提問都從零開始檢索，而是讓AI持續整理概念、更新跨文獻分析、追蹤矛盾與保留來源依據。</p>
+      <p style="margin:18px 0"><a href="presentations/taiwan-nutrition-2018/index.html" style="display:inline-block;background:#764e9d;color:white;padding:12px 20px;border-radius:999px;text-decoration:none;font-weight:700">✿ 開啟可愛學術HTML簡報 ↗</a>　<a href="notes/taiwan-nutrition-2018/notes.md">閱讀研究筆記</a>　<a href="slides/taiwan-nutrition-2018/slide-content.md">逐頁簡報內容</a></p><div class="hero-chips"><span>01 原始來源唯讀</span><span>02 Wiki持續整理</span><span>03 AGENTS.md規範</span></div>
+    </section>
+    <section class="stats" aria-label="知識庫概況">
+      <div class="stat"><strong id="page-count">—</strong><span>研究知識頁面</span></div>
+      <div class="stat"><strong id="source-count">—</strong><span>官方來源摘要</span></div>
+      <div class="stat"><strong>3</strong><span>Ingest / Query / Lint</span></div>
+      <div class="stat"><strong>GitHub</strong><span>版本管理與公開瀏覽</span></div>
+    </section>
+    <div class="workspace">
+      <aside class="sidebar" aria-label="知識庫導覽">
+        <div class="sidebar-title">探索知識庫 <span class="mini-badge">WIKI</span></div>
+        <label class="search-label" for="search">搜尋研究主題</label>
+        <input id="search" type="search" placeholder="例如：RAG、Agent、NIST" autocomplete="off">
+        <div id="nav" class="nav-list"></div>
+        <div class="sidebar-foot"><span class="foot-dot"></span> 內容由Markdown與索引檔管理。<a href="wiki/index.md" target="_blank" rel="noopener">開啟完整索引 ↗</a></div>
+      </aside>
+      <main class="reader">
+        <div class="reader-top"><span id="breadcrumbs">Wiki / 載入中</span><span id="updated"></span></div>
+        <div id="article" class="markdown"><p>正在載入研究筆記…</p></div>
+        <div class="reader-bottom"><div><strong>如何持續更新這個Wiki？</strong><p>AI閱讀AGENTS.md後新增Markdown、更新目錄與日誌，網站就會顯示新內容。</p></div><a href="AGENTS.md" target="_blank" rel="noopener">查看維護規範 ↗</a></div>
+      </main>
+    </div>
+    <footer class="footer"><span>LLM Research Wiki · 研究筆記示範專案</span><span>資料不等於結論，請核對原始來源。</span></footer>
+  </div>
+</body>
+</html>

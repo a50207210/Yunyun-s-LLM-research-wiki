@@ -1,0 +1,24 @@
+{
+  "updated": "2026-11-16",
+  "expected_sources": 3,
+  "received_pdf_sources": 2,
+  "pending_source_count": 1,
+  "pdfs": [
+    {
+      "source_id": "hpa-diet-2018",
+      "original_filename": "每日飲食指南手冊 (1).pdf",
+      "stored_path": "raw/sources/hpa-daily-dietary-guidelines-2018.pdf",
+      "bytes": 9441771,
+      "pages": 29,
+      "sha256": "2772e761b20a45d6e0fb99ccb71d7343083997cf2db36e5c235628cb3525b317"
+    },
+    {
+      "source_id": "hpa-prenatal-2018",
+      "original_filename": "A02_1.pdf",
+      "stored_path": "raw/sources/hpa-prenatal-lactation-nutrition-2018.pdf",
+      "bytes": 4408421,
+      "pages": 43,
+      "sha256": "91f712e9b679223d560c441706a3f6ede29492e30afcf0c832416eb500b698a0"
+    }
+  ]
+}
